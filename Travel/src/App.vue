@@ -16,7 +16,6 @@ export default {
     Footer,
   }
 }
-
 </script>
 <template>
   <div id="main-app">

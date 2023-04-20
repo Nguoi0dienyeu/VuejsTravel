@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0;
+  /* gap: 178px; */
+  font-family: "Poppins";
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.logo {
+  font-weight: 400;
+  font-size: 33.18px;
+  line-height: 120%;
+  flex: none;
+  color: #ffffff;
+}
+.menu-mobile {
+  display: none;
+}
+div.menus {
+  display: flex;
+  flex-direction: row;
+  flex: none;
+  order: 1;
+}
+ul.item-menus {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 20px;
+}
+li.active a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: #ffffff;
+  text-decoration: none;
+}
+a#item-Home {
+  font-weight: 700;
+}
+.language-top.col {
+  flex: none;
+  order: 2;
+}
+.language-top.col .form-select {
+  background-color: transparent;
+  line-height: 1;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+select.form-select option {
+  background-color: black;
+}
+.lang-first option:selected {
+  font-size: 10px;
+  background-color: transparent;
+}
